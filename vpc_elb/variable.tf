@@ -21,11 +21,11 @@ variable "amiid" {
 }
 
 variable "instance_type" {
-  default = "t2.micro"
+  default = "t2.medium"
 }
 variable "number_instances" {
   default = "2"
 }
 variable "key" {
-default = "jmsth21t"
+default = "devops-pool"
 }
